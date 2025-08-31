@@ -56,7 +56,7 @@ Before building your Docker containers, you must disable the service running on 
 
 With `resolved` disabled, you can now build your Docker containers.
 
-1.  **Create your `docker-compose.yml` file:** Define your services, networks, and volumes in this file. Ensure you configure the network settings correctly for a **bridged network** to allow communication between containers and with the host.
+1.  **Create your `docker-compose.yml` file:** Define your services, networks, and volumes in this file. Ensure you configure the network settings correctly for a **bridged network** to allow communication between containers and with the host. BE SURE TO ADD A VALID ACCESS TOKEN TO PLEX SERVICE.
 2.  **Build the containers:**
     ```bash
     docker compose up -d
@@ -94,8 +94,6 @@ Now you can proceed with the Nextcloud AIO setup.
 
 ## Plex Setup
 
-Plex should be accessible, but since it's running on a bridged network, accessing its web UI can be tricky.
+Plex should be accessible:
 
-* **Access token:** You can set up an access token to manage Plex from outside the container.
-* **Port forwarding:** You can expose the Plex port (32400) directly from the container to your host machine.
-* **Reverse proxy:** The most robust solution is to use Caddy to proxy requests to your Plex container, similar to how you handle Nextcloud. This allows you to access Plex from a custom domain (e.g., `plex.yourdomain.com`) and secure the connection with SSL/TLS.
+** Setup Plex: ** http://localhost:32400/web brings you to plex.
