@@ -7,7 +7,7 @@ SERVICES:
     - plex: media server
 
 File structure:
-    Project root directory.
+    Project root directory.\n
     ├── caddy
     │   └── Caddyfile
     ├── docker-compose.yml
