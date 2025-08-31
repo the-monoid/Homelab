@@ -87,7 +87,7 @@ Once the containers are running, you need to configure Pi-hole to handle DNS for
 Now you can proceed with the Nextcloud AIO setup.
 
 1.  **Access the Nextcloud AIO installer:** Navigate to the installer at `https://<your-host-machine-ip>:8080`.
-2.  **Follow the setup instructions:** The installer will guide you through the process, including setting up the domain and a reverse proxy.
+2.  **Follow the setup instructions:** The installer will guide you through the process, including setting up the domain and a reverse proxy. See [Nextcloud AIO GitHub repository](https://github.com/nextcloud/all-in-one "Nextcloud All-in-One")
 3.  **Troubleshooting:** If the domain check fails, inspect the logs for both the `caddy` and `nextcloud-aio-mastercontainer` services. A common issue is DNS misconfiguration or Caddy not properly communicating with the Nextcloud AIO Apache container.
 
 ---
