@@ -94,7 +94,7 @@ Now you can proceed with the Nextcloud AIO setup.
 
 ## Plex Setup
 
-Plex should be accessible, but since it's running inside a Docker container, accessing its web UI can be tricky.
+Plex should be accessible, but since it's running on a bridged network, accessing its web UI can be tricky.
 
 * **Access token:** You can set up an access token to manage Plex from outside the container.
 * **Port forwarding:** You can expose the Plex port (32400) directly from the container to your host machine.
