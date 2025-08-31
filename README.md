@@ -10,3 +10,15 @@ This guide uses the following services:
 * **Plex:** A media server.
 
 The suggested project file structure is as follows:
+
+├── caddy
+
+│   └── Caddyfile
+
+├── docker-compose.yml
+
+├── nextcloud
+
+├── plex
+
+└── etc-pihole
