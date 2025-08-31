@@ -91,12 +91,13 @@ services:
       - VERSION=docker
       - PUID=1000
       - PGUID=1000
+      - PLEX_CLAIM='<access-token>'
     ports:
       - "32400:32400/tcp"
     volumes:
       - /path/to/your/config:/config
-      - /path/to/your//plex/tvshows:/tvshows
-      - /path/to/your//plex/movies:/movies
+      - /path/to/your/plex/tvshows:/tvshows
+      - /path/to/your/plex/movies:/movies
     networks:
       - nextcloud_network
 volumes:
