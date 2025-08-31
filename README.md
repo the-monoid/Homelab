@@ -12,13 +12,8 @@ This guide uses the following services:
 The suggested project file structure is as follows:
 
 ├── caddy
-
 │   └── Caddyfile
-
 ├── docker-compose.yml
-
 ├── nextcloud
-
 ├── plex
-
 └── etc-pihole
