@@ -13,7 +13,7 @@ The suggested project file structure is as follows:
 
 ├── caddy
 
-│   └── Caddyfile
+│       └── Caddyfile
 
 ├── docker-compose.yml
 
