@@ -1,15 +1,15 @@
-https://nextcloud.semigroupoid.cloud:443 {
+https://nextcloud.your.domain:443 {
     header Strict-Transport-Security max-age=31536000;
     reverse_proxy nextcloud-aio-apache:11000
 }
 
 
 # Example for Plex Media Server
-plex.semigroupoid.cloud {
+plex.your.domain {
     reverse_proxy plex:32400
 }
 
-pihole.semigroupoid.cloud {
+pihole.your.domain {
     reverse_proxy pihole:443
 }
 
